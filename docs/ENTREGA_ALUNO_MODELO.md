@@ -1,9 +1,9 @@
 # Ficha de entrega — trabalho final LP1
 
-Nome do aluno: a confirmar
-Prontuário completo: a confirmar
-Turma: a confirmar
-Data da entrega: a confirmar
+Nome do aluno: Rafael Gomes Emiliano
+Prontuário completo: Sp3194035
+Turma: 213 — Desenvolvimento de Sistemas
+Data da entrega: 26/11/2026
 URL estável de produção: https://rafael-gomes-sp3194035-lp1.vercel.app
 URL de login (termina em /login): https://rafael-gomes-sp3194035-lp1.vercel.app/login
 URL do repositório (acesso privado): https://github.com/FaellEmiliano/rafael-gomes-sp3194035
@@ -11,13 +11,13 @@ Commit/versão avaliada: código da aplicação em `2209926`
 
 Conta administrativa para avaliação (e-mail): `admin@mercadoviva.example`
 Conta de operador para testes (e-mail): `operador@mercadoviva.example`
-Canal privado utilizado para entregar as senhas: a confirmar
+Canal privado utilizado para entregar as senhas: README do repositório privado. O acesso do professor ainda precisa ser confirmado.
 
 Não escreva senhas neste arquivo se ele for enviado ao GitHub. Não inclua SECRET_KEY, conexão Neon, token GitHub ou credencial da Vercel.
 
 ## Checklist
 
-- [ ] URL contém meu nome e prontuário completo.
+- [x] URL contém meu nome e prontuário completo.
 - [x] Login é do supermercado; não exige conta Vercel do professor.
 - [x] Banco PostgreSQL individual e migração aplicados.
 - [x] Conta do professor funciona.
