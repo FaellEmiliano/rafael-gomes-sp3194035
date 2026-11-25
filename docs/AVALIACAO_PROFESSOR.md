@@ -45,3 +45,10 @@ Use um SKU novo para não depender dos saldos existentes. Registre os números g
 - Link de recuperação expira e só funciona uma vez.
 - Operador com caixa aberto não pode ser desativado.
 
+## Evidências e defesa do código
+
+Peça ao aluno indicar a rota POST /checkout, o serviço checkout, a entidade Sale e o template receipt.html. Solicite a explicação de onde estão commit/rollback e por que preço/estoque são validados no servidor. Pergunte por que SQLite não deve ser usado na publicação e por que o banco não pode ficar apenas no cookie ou no filesystem da função.
+
+Solicite uma venda antes/depois de redeploy e a consulta ao mesmo ticket. Não peça a senha de conexão PostgreSQL, SECRET_KEY, token GitHub ou acesso à conta pessoal do aluno.
+
+Os testes de integração incluídos podem ser executados pelo aluno com `python -m pytest -q`. A avaliação remota pelo professor é um passo adicional: confirma contas, infraestrutura, domínio e banco configurados pelo aluno.
