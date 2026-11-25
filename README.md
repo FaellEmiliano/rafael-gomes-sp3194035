@@ -6,10 +6,12 @@ Projeto completo para Laboratório de Programação 1, com MVC, MPA, Flask/Jinja
 
 Abra o [Mercado Viva na Vercel](https://rafael-gomes-sp3194035-lp1.vercel.app/login).
 
-| Perfil | E-mail | Senha |
-| --- | --- | --- |
-| Administrador | `admin@mercadoviva.example` | `EX4jU0f7WXHLeC51JH5SKTulfcWgb5MU0V0BQ93sBnc` |
-| Operador | `operador@mercadoviva.example` | `CxjJQlBwnGRQz0vEDugHcvyNXBcYmfqyjns9mJfti1k` |
+| Perfil | E-mail |
+| --- | --- |
+| Administrador | `admin@mercadoviva.example` |
+| Operador | `operador@mercadoviva.example` |
+
+As senhas são entregues exclusivamente por meio do PDF privado de credenciais.
 
 Contas para avaliação do Mercado Viva. A versão atual oferece acesso à equipe do supermercado.
 
