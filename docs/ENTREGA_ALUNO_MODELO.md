@@ -24,7 +24,7 @@ Não escreva senhas neste arquivo se ele for enviado ao GitHub. Não inclua SECR
 - [x] Operador, caixa, venda e pagamentos simulados testados.
 - [x] Estoque, compras, financeiro, gráfico, Excel e ticket testados.
 - [x] Os dois temas estão disponíveis.
-- [ ] Persistência confirmada após redeploy.
+- [x] Persistência confirmada após redeploy. O mesmo ticket foi aberto após a Vercel publicar o commit `77ee183`.
 - [x] Testes automatizados executados; resultado registrado abaixo.
 - [x] .env e bancos locais não foram enviados ao repositório.
 
