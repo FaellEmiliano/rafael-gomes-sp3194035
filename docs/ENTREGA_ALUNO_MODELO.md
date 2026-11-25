@@ -11,9 +11,6 @@ Commit/versão avaliada: código da aplicação em `2209926`
 
 Conta administrativa para avaliação (e-mail): `admin@mercadoviva.example`
 Conta de operador para testes (e-mail): `operador@mercadoviva.example`
-Canal privado utilizado para entregar as senhas: README do repositório privado. O acesso do professor ainda precisa ser confirmado.
-
-Não escreva senhas neste arquivo se ele for enviado ao GitHub. Não inclua SECRET_KEY, conexão Neon, token GitHub ou credencial da Vercel.
 
 ## Checklist
 
