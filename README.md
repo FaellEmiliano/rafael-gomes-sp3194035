@@ -2,6 +2,17 @@
 
 Projeto completo para Laboratório de Programação 1, com MVC, MPA, Flask/Jinja2, ORM SQLAlchemy e PostgreSQL na Vercel. Professor: Celso Gonsalez Saes.
 
+## Acesso à versão publicada
+
+Abra o [Mercado Viva na Vercel](https://rafael-gomes-sp3194035-lp1.vercel.app/login).
+
+| Perfil | E-mail |
+| --- | --- |
+| Administrador | `admin@mercadoviva.example` |
+| Operador | `operador@mercadoviva.example` |
+
+Solicite a senha ao responsável pelo projeto por canal privado. A versão atual oferece acesso à equipe do supermercado.
+
 ## Comece aqui
 
 Leia **docs/ROTEIRO_ALUNO.md** para instalação, criação do banco, GitHub, Vercel e domínio; **docs/MANUAL_SISTEMA.md** para operar; **docs/ARQUITETURA.md** para estudar o código; **docs/AVALIACAO_PROFESSOR.md** para validar.
