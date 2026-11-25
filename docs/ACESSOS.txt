@@ -1,0 +1,15 @@
+Acessos do Mercado Viva
+
+Página de login
+https://rafael-gomes-sp3194035-lp1.vercel.app/login
+
+Administrador
+E-mail: admin@mercadoviva.example
+
+Operador
+E-mail: operador@mercadoviva.example
+
+As senhas são entregues pelo responsável em canal privado.
+
+Cliente
+A versão atual não oferece cadastro ou login de cliente.
