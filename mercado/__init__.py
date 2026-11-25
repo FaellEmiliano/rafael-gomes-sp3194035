@@ -14,11 +14,12 @@ ROOT = Path(__file__).resolve().parent.parent
 
 def create_app(overrides=None):
     load_dotenv(ROOT / '.env')
+    hosted = bool(os.getenv('VERCEL')) or os.getenv('APP_ENV') == 'production'
     app = Flask(__name__, template_folder=str(ROOT/'templates'), static_folder=None)
     app.config.update(SECRET_KEY=os.getenv('SECRET_KEY'), DATABASE_URL=os.getenv('DATABASE_URL'),
         STORE_NAME=os.getenv('STORE_NAME','Mercado Viva'), APP_URL=os.getenv('APP_URL','http://127.0.0.1:5000'),
         SESSION_COOKIE_HTTPONLY=True, SESSION_COOKIE_SAMESITE='Lax',
-        SESSION_COOKIE_SECURE=os.getenv('APP_ENV')=='production',
+        SESSION_COOKIE_SECURE=hosted,
         PERMANENT_SESSION_LIFETIME=timedelta(minutes=30), MAX_CONTENT_LENGTH=128*1024,
         WTF_CSRF_TIME_LIMIT=3600)
     if overrides: app.config.update(overrides)
@@ -26,7 +27,7 @@ def create_app(overrides=None):
         raise RuntimeError('Configure SECRET_KEY aleatória com pelo menos 32 caracteres.')
     if not app.config['DATABASE_URL']:
         raise RuntimeError('Configure DATABASE_URL.')
-    if (os.getenv('VERCEL') or os.getenv('APP_ENV')=='production') and not app.config['DATABASE_URL'].startswith(('postgres:', 'postgresql:', 'postgresql+psycopg:')):
+    if hosted and not app.config['DATABASE_URL'].startswith(('postgres:', 'postgresql:', 'postgresql+psycopg:')):
         raise RuntimeError('Produção exige PostgreSQL persistente.')
     configure(app)
     CSRFProtect(app)
